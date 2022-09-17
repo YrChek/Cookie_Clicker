@@ -3,7 +3,7 @@
 const img = document.getElementById('cookie');
 const count = document.getElementById('clicker__counter');
 const speed = document.getElementById('clicker__speed');
-let timeStart = 0;
+let timeStart = 0;   // При делении 1 на количество секунд, прошедших сначала "цифрового века", практически ноль и получается. Не стал описывать первый клик.
 let timeStop;
 let num = 1;
 img.onclick = () => {
